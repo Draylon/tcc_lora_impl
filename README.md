@@ -1,114 +1,104 @@
-<p align="center">
-  <a href="" rel="noopener">
- <img width=200px height=200px src="https://i.imgur.com/6wj0hh6.jpg" alt="Project logo"></a>
-</p>
+<div align="center" id="top"> 
+  <img src="./.github/app.gif" alt="Mon" />
 
-<h3 align="center">Project Title</h3>
+  &#xa0;
 
-<div align="center">
-
-[![Status](https://img.shields.io/badge/status-active-success.svg)]()
-[![GitHub Issues](https://img.shields.io/github/issues/kylelobo/The-Documentation-Compendium.svg)](https://github.com/kylelobo/The-Documentation-Compendium/issues)
-[![GitHub Pull Requests](https://img.shields.io/github/issues-pr/kylelobo/The-Documentation-Compendium.svg)](https://github.com/kylelobo/The-Documentation-Compendium/pulls)
-[![License](https://img.shields.io/badge/license-MIT-blue.svg)](/LICENSE)
-
+  <!-- <a href="https://mon.netlify.app">Demo</a> -->
 </div>
 
----
+<h1 align="center">Mon</h1>
 
-<p align="center"> Few lines describing your project.
-    <br> 
+<p align="center">
+  <img alt="Github top language" src="https://img.shields.io/github/languages/top/draylon/tcc_lora_impl?color=56BEB8">
+
+  <img alt="Github language count" src="https://img.shields.io/github/languages/count/draylon/tcc_lora_impl?color=56BEB8">
+
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/draylon/tcc_lora_impl?color=56BEB8">
+
+  <img alt="License" src="https://img.shields.io/github/license/draylon/tcc_lora_impl?color=56BEB8">
+
+  <!-- <img alt="Github issues" src="https://img.shields.io/github/issues/draylon/tcc_lora_impl?color=56BEB8" /> -->
+
+  <!-- <img alt="Github forks" src="https://img.shields.io/github/forks/draylon/tcc_lora_impl?color=56BEB8" /> -->
+
+  <!-- <img alt="Github stars" src="https://img.shields.io/github/stars/draylon/tcc_lora_impl?color=56BEB8" /> -->
 </p>
 
-## 📝 Table of Contents
+<!-- Status -->
 
-- [About](#about)
-- [Getting Started](#getting_started)
-- [Deployment](#deployment)
-- [Usage](#usage)
-- [Built Using](#built_using)
-- [TODO](../TODO.md)
-- [Contributing](../CONTRIBUTING.md)
-- [Authors](#authors)
-- [Acknowledgments](#acknowledgement)
+<!-- <h4 align="center"> 
+	🚧  Mon 🚀 Under construction...  🚧
+</h4> 
 
-## 🧐 About <a name = "about"></a>
+<hr> -->
 
-Write about 1-2 paragraphs describing the purpose of your project.
+<p align="center">
+  <a href="https://github.com/Draylon/tcc_impl">Voltar</a> &#xa0; | &#xa0;
+  <a href="#sparkles-features">Features</a> &#xa0; | &#xa0;
+  <a href="#rocket-technologies">Technologies</a> &#xa0; | &#xa0;
+  <a href="#white_check_mark-requirements">Requirements</a> &#xa0; | &#xa0;
+  <a href="#checkered_flag-starting">Starting</a> &#xa0; | &#xa0;
+  <a href="#memo-license">License</a> &#xa0; | &#xa0;
+  <a href="https://github.com/draylon" target="_blank">Author</a>
+</p>
 
-## 🏁 Getting Started <a name = "getting_started"></a>
+<br>
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See [deployment](#deployment) for notes on how to deploy the project on a live system.
+## :dart: About ##
 
-### Prerequisites
+Describe your project
 
-What things you need to install the software and how to install them.
+## :sparkles: Features ##
 
-```
-Give examples
-```
+:heavy_check_mark: Feature 1;\
+:heavy_check_mark: Feature 2;\
+:heavy_check_mark: Feature 3;
 
-### Installing
+## :rocket: Technologies ##
 
-A step by step series of examples that tell you how to get a development env running.
+The following tools were used in this project:
 
-Say what the step will be
+- [Arduino](https://arduino.cc/)
+- [ESP32 Library]()
+- [Heltec Library]()
 
-```
-Give the example
-```
+## :white_check_mark: Requirements ##
 
-And repeat
+Before starting :checkered_flag:, you need to have [Git](https://git-scm.com) and [Node](https://nodejs.org/en/) installed.
 
-```
-until finished
-```
+## :checkered_flag: Starting ##
 
-End with an example of getting some data out of the system or using it for a little demo.
+```bash
+# Clone this project
+$ git clone https://github.com/draylon/tcc_lora_impl
 
-## 🔧 Running the tests <a name = "tests"></a>
+# Access
+$ cd tcc_lora_impl
 
-Explain how to run the automated tests for this system.
-
-### Break down into end to end tests
-
-Explain what these tests test and why
-
-```
-Give an example
+# Open Arduino
+$ cd final_sender
+$ arduino-cli final_sender.ino
 ```
 
-### And coding style tests
+### Install dependencies:
 
-Explain what these tests test and why
+Adicione a seguinte [Board Manager](https://github.com/Heltec-Aaron-Lee/WiFi_Kit_series/releases/download/0.0.5/package_heltec_esp32_index.json) ao ambiente Arduino. (Veja em [Third-Party platforms](https://support.arduino.cc/hc/en-us/articles/360016466340-Add-third-party-platforms-to-the-Boards-Manager-in-Arduino-IDE))
 
-```
-Give an example
-```
+Adicione as seguintes bibliotecas usando [Library Manager](https://support.arduino.cc/hc/en-us/articles/5145457742236-Add-libraries-to-Arduino-IDE):
+(Baixe os releases dos repositórios e adicione ao [Library Manager](https://support.arduino.cc/hc/en-us/articles/5145457742236-Add-libraries-to-Arduino-IDE))
+- [micro-ecc](https://github.com/kmackay/micro-ecc)
+- [PubSubClient](https://github.com/knolleary/pubsubclient/)
+- [Heltec Esp32 Dev-Boards](https://github.com/HelTecAutomation/Heltec_ESP32)
 
-## 🎈 Usage <a name="usage"></a>
 
-Add notes about how to use the system.
 
-## 🚀 Deployment <a name = "deployment"></a>
+## :memo: License ##
 
-Add additional notes about how to deploy this on a live system.
+This project is under license from MIT. For more details, see the [LICENSE](LICENSE.md) file.
 
-## ⛏️ Built Using <a name = "built_using"></a>
 
-- [MongoDB](https://www.mongodb.com/) - Database
-- [Express](https://expressjs.com/) - Server Framework
-- [VueJs](https://vuejs.org/) - Web Framework
-- [NodeJs](https://nodejs.org/en/) - Server Environment
+Made with :heart: by <a href="https://github.com/draylon" target="_blank">Draylon</a>
 
-## ✍️ Authors <a name = "authors"></a>
+&#xa0;
 
-- [@kylelobo](https://github.com/kylelobo) - Idea & Initial work
-
-See also the list of [contributors](https://github.com/kylelobo/The-Documentation-Compendium/contributors) who participated in this project.
-
-## 🎉 Acknowledgements <a name = "acknowledgement"></a>
-
-- Hat tip to anyone whose code was used
-- Inspiration
-- References
+<a href="#top">Back to top</a>
