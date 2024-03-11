@@ -63,12 +63,12 @@ A implementação é dividida em dispositivos receptores (Gateway / receiver) e 
 The following tools were used in this project:
 
 - [Arduino](https://arduino.cc/)
-- [ESP32 Library]()
-- [Heltec Library]()
+- [ESP32 Library](https://github.com/espressif/arduino-esp32)
+- [Heltec Library](https://github.com/HelTecAutomation/Heltec_ESP32)
 
 ## :white_check_mark: Requirements ##
 
-Before starting :checkered_flag:, you need to have [Git](https://git-scm.com) and [Node](https://nodejs.org/en/) installed.
+Before starting :checkered_flag:, you need to have [Git](https://git-scm.com) installed.
 
 ## :checkered_flag: Starting ##
 
